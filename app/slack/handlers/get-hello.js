@@ -2,6 +2,7 @@
  * Handler
  * */
 const handler = (request, reply) => {
+  console.log('test');
   reply({ message: `Slack bot, ${request.params.test}!` })
 };
 
